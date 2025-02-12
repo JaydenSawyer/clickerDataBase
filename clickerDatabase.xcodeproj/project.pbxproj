@@ -30,18 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA18E2722CA43975009851B4 /* clickerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clickerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA18E28B2CA43977009851B4 /* clickerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clickerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA18E2952CA43977009851B4 /* clickerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clickerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18E2722CA43975009851B4 /* clickerDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clickerDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18E28B2CA43977009851B4 /* clickerDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clickerDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18E2952CA43977009851B4 /* clickerDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clickerDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EA18E29D2CA43977009851B4 /* Exceptions for "clickerGame" folder in "clickerGame" target */ = {
+		EA18E29D2CA43977009851B4 /* Exceptions for "clickerGame" folder in "clickerDatabase" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = EA18E2712CA43975009851B4 /* clickerGame */;
+			target = EA18E2712CA43975009851B4 /* clickerDatabase */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -49,7 +49,7 @@
 		EA18E2742CA43975009851B4 /* clickerGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				EA18E29D2CA43977009851B4 /* Exceptions for "clickerGame" folder in "clickerGame" target */,
+				EA18E29D2CA43977009851B4 /* Exceptions for "clickerGame" folder in "clickerDatabase" target */,
 			);
 			path = clickerGame;
 			sourceTree = "<group>";
@@ -107,9 +107,9 @@
 		EA18E2732CA43975009851B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA18E2722CA43975009851B4 /* clickerGame.app */,
-				EA18E28B2CA43977009851B4 /* clickerGameTests.xctest */,
-				EA18E2952CA43977009851B4 /* clickerGameUITests.xctest */,
+				EA18E2722CA43975009851B4 /* clickerDatabase.app */,
+				EA18E28B2CA43977009851B4 /* clickerDatabaseTests.xctest */,
+				EA18E2952CA43977009851B4 /* clickerDatabaseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA18E2712CA43975009851B4 /* clickerGame */ = {
+		EA18E2712CA43975009851B4 /* clickerDatabase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA18E29E2CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerGame" */;
+			buildConfigurationList = EA18E29E2CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerDatabase" */;
 			buildPhases = (
 				EA18E26E2CA43975009851B4 /* Sources */,
 				EA18E26F2CA43975009851B4 /* Frameworks */,
@@ -132,19 +132,19 @@
 			fileSystemSynchronizedGroups = (
 				EA18E2742CA43975009851B4 /* clickerGame */,
 			);
-			name = clickerGame;
+			name = clickerDatabase;
 			packageProductDependencies = (
 				EA79D1B42D5A499000D22F9A /* FirebaseAuth */,
 				EA79D1B62D5A499000D22F9A /* FirebaseDatabase */,
 				EA79D1B82D5A499000D22F9A /* FirebaseFirestore */,
 			);
 			productName = clickerGame;
-			productReference = EA18E2722CA43975009851B4 /* clickerGame.app */;
+			productReference = EA18E2722CA43975009851B4 /* clickerDatabase.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA18E28A2CA43977009851B4 /* clickerGameTests */ = {
+		EA18E28A2CA43977009851B4 /* clickerDatabaseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA18E2A32CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerGameTests" */;
+			buildConfigurationList = EA18E2A32CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerDatabaseTests" */;
 			buildPhases = (
 				EA18E2872CA43977009851B4 /* Sources */,
 				EA18E2882CA43977009851B4 /* Frameworks */,
@@ -158,16 +158,16 @@
 			fileSystemSynchronizedGroups = (
 				EA18E28E2CA43977009851B4 /* clickerGameTests */,
 			);
-			name = clickerGameTests;
+			name = clickerDatabaseTests;
 			packageProductDependencies = (
 			);
 			productName = clickerGameTests;
-			productReference = EA18E28B2CA43977009851B4 /* clickerGameTests.xctest */;
+			productReference = EA18E28B2CA43977009851B4 /* clickerDatabaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA18E2942CA43977009851B4 /* clickerGameUITests */ = {
+		EA18E2942CA43977009851B4 /* clickerDatabaseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA18E2A62CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerGameUITests" */;
+			buildConfigurationList = EA18E2A62CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerDatabaseUITests" */;
 			buildPhases = (
 				EA18E2912CA43977009851B4 /* Sources */,
 				EA18E2922CA43977009851B4 /* Frameworks */,
@@ -181,11 +181,11 @@
 			fileSystemSynchronizedGroups = (
 				EA18E2982CA43977009851B4 /* clickerGameUITests */,
 			);
-			name = clickerGameUITests;
+			name = clickerDatabaseUITests;
 			packageProductDependencies = (
 			);
 			productName = clickerGameUITests;
-			productReference = EA18E2952CA43977009851B4 /* clickerGameUITests.xctest */;
+			productReference = EA18E2952CA43977009851B4 /* clickerDatabaseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA18E26D2CA43975009851B4 /* Build configuration list for PBXProject "clickerGame" */;
+			buildConfigurationList = EA18E26D2CA43975009851B4 /* Build configuration list for PBXProject "clickerDatabase" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -228,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA18E2712CA43975009851B4 /* clickerGame */,
-				EA18E28A2CA43977009851B4 /* clickerGameTests */,
-				EA18E2942CA43977009851B4 /* clickerGameUITests */,
+				EA18E2712CA43975009851B4 /* clickerDatabase */,
+				EA18E28A2CA43977009851B4 /* clickerDatabaseTests */,
+				EA18E2942CA43977009851B4 /* clickerDatabaseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		EA18E28D2CA43977009851B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA18E2712CA43975009851B4 /* clickerGame */;
+			target = EA18E2712CA43975009851B4 /* clickerDatabase */;
 			targetProxy = EA18E28C2CA43977009851B4 /* PBXContainerItemProxy */;
 		};
 		EA18E2972CA43977009851B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA18E2712CA43975009851B4 /* clickerGame */;
+			target = EA18E2712CA43975009851B4 /* clickerDatabase */;
 			targetProxy = EA18E2962CA43977009851B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,7 +484,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickerGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clickerGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickerDatabase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clickerDatabase";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickerGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clickerGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickerDatabase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clickerDatabase";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA18E26D2CA43975009851B4 /* Build configuration list for PBXProject "clickerGame" */ = {
+		EA18E26D2CA43975009851B4 /* Build configuration list for PBXProject "clickerDatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA18E2A12CA43977009851B4 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA18E29E2CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerGame" */ = {
+		EA18E29E2CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerDatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA18E29F2CA43977009851B4 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA18E2A32CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerGameTests" */ = {
+		EA18E2A32CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerDatabaseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA18E2A42CA43977009851B4 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA18E2A62CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerGameUITests" */ = {
+		EA18E2A62CA43977009851B4 /* Build configuration list for PBXNativeTarget "clickerDatabaseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA18E2A72CA43977009851B4 /* Debug */,
